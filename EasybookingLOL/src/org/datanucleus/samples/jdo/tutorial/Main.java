@@ -1,4 +1,4 @@
-package jdo;
+package org.datanucleus.samples.jdo.tutorial;
 
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;

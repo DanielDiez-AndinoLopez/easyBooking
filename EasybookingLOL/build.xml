@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project basedir="." default="4.RUN" name="EasyBookingLOL">
+<project basedir="." default="4.RUN" name="JDOEasyBookingLOL">
     <property name="src.dir" location="src"/>
     <property name="bin.dir" location="bin"/>
 	<property name="lib.dir" location="lib"/>

@@ -1928,38 +1928,114 @@ java.sql.SQLException: Access denied for user 'admin'@'localhost' (using passwor
 	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:445)
 	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:729)
 	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:300)
-09:25:38,062 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
-09:25:38,186 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
-09:25:38,190 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
-09:25:38,193 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Book.class" con definicion enhanced
-09:25:38,199 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Inventory.class" con definicion enhanced
-09:25:38,204 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Product.class" con definicion enhanced
-09:25:38,209 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
-09:25:38,217 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
-09:25:38,221 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
-09:25:38,221 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 8 clases.
-09:25:42,649 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
-09:25:42,777 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
-09:25:42,782 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
-09:25:42,784 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Book.class" con definicion enhanced
-09:25:42,789 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Inventory.class" con definicion enhanced
-09:25:42,793 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Product.class" con definicion enhanced
-09:25:42,800 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
-09:25:42,809 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
-09:25:42,814 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
-09:25:42,815 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 8 clases.
-09:25:43,176 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
-09:25:43,177 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
-09:25:43,177 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
-09:25:43,177 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
-09:25:43,177 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
-09:25:43,177 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
-09:25:43,178 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
-09:25:43,178 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\log4j-1.2.14.jar
-09:25:43,178 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
-09:25:43,178 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\bin
-09:25:43,178 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Diazl\eclipse-workspace\EasybookingLOL\resources
-09:25:43,641 (main) ERROR [DataNucleus.Datastore.Schema] - La inicialización del base de datos ha fallado.
+09:32:45,284 (main) ERROR [DataNucleus.Datastore.Schema] - La inicialización del base de datos ha fallado.
+Access denied for user 'admin'@'localhost' (using password: YES)
+org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:518)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:288)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.NucleusContextHelper.createStoreManagerForProperties(NucleusContextHelper.java:140)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:445)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:855)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:346)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1975)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1970)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1177)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:814)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:1093)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:924)
+	at org.datanucleus.samples.jdo.tutorial.Main.main(Main.java:15)
+Caused by: java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:832)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:79)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:254)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:864)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:501)
+	... 24 more
+Nested Throwables StackTrace:
+java.sql.SQLException: Access denied for user 'admin'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:832)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:79)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:254)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:864)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:501)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:288)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.NucleusContextHelper.createStoreManagerForProperties(NucleusContextHelper.java:140)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:445)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:855)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:346)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1975)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1970)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1177)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:814)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:1093)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:924)
+	at org.datanucleus.samples.jdo.tutorial.Main.main(Main.java:15)
+09:32:45,300 (main) ERROR [DataNucleus.Datastore] - Exception thrown creating StoreManager : Access denied for user 'admin'@'localhost' (using password: YES)
+12:33:33,101 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+12:33:33,288 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+12:33:33,304 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+12:33:33,319 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+12:33:33,335 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+12:33:33,366 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+12:33:33,382 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+12:33:34,124 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+12:33:34,890 (main) ERROR [DataNucleus.Datastore.Schema] - La inicialización del base de datos ha fallado.
 Access denied for user 'admin'@'localhost' (using password: YES)
 org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'admin'@'localhost' (using password: YES)
 	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:518)
@@ -2021,8 +2097,8 @@ java.sql.SQLException: Access denied for user 'admin'@'localhost' (using passwor
 	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:445)
 	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:729)
 	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:300)
-09:25:43,643 (main) ERROR [DataNucleus.Datastore] - Exception thrown creating StoreManager : Access denied for user 'admin'@'localhost' (using password: YES)
-09:25:43,643 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+12:33:34,890 (main) ERROR [DataNucleus.Datastore] - Exception thrown creating StoreManager : Access denied for user 'admin'@'localhost' (using password: YES)
+12:33:34,890 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
 Access denied for user 'admin'@'localhost' (using password: YES)
 org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'admin'@'localhost' (using password: YES)
 	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:518)
@@ -2084,3 +2160,371 @@ java.sql.SQLException: Access denied for user 'admin'@'localhost' (using passwor
 	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:445)
 	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:729)
 	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:300)
+12:42:45,648 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+12:42:45,835 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+12:42:45,851 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+12:42:45,866 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+12:42:45,882 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+12:42:45,913 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+12:42:45,913 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+12:42:46,414 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+12:42:47,368 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+12:42:48,258 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+12:42:51,211 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+12:42:59,885 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:08:18,111 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+13:08:18,298 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+13:08:18,314 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+13:08:18,330 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+13:08:18,361 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+13:08:18,377 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+13:08:18,377 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+13:08:18,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+13:08:19,818 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+13:08:20,584 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+13:08:21,880 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:08:31,048 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+13:08:31,251 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+13:08:31,267 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+13:08:31,282 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+13:08:31,298 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+13:08:31,313 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+13:08:31,329 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+13:08:31,864 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+13:08:31,880 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+13:08:32,739 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+13:08:33,661 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+13:08:35,708 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:08:42,466 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:09:28,623 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:09:45,517 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+13:09:45,720 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+13:09:45,736 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+13:09:45,751 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+13:09:45,767 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+13:09:45,783 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+13:09:45,798 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+13:09:46,337 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+13:09:47,228 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+13:09:48,025 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+13:09:49,509 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:09:55,911 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+13:09:56,130 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+13:09:56,161 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+13:09:56,176 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+13:09:56,255 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+13:09:56,286 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+13:09:56,301 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+13:09:56,790 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+13:09:57,680 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+13:09:58,493 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+13:10:00,774 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:10:06,065 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:25:00,549 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+17:25:01,371 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+17:25:01,403 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+17:25:01,444 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+17:25:01,469 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+17:25:01,500 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+17:25:01,516 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+17:25:02,843 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+17:25:02,845 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+17:25:02,846 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+17:25:02,846 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+17:25:02,846 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+17:25:02,846 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+17:25:02,848 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+17:25:02,848 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\log4j-1.2.14.jar
+17:25:02,848 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+17:25:02,848 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin
+17:25:02,849 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\resources
+17:25:05,360 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:25:06,437 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+17:25:06,437 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+17:25:06,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+17:25:06,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+17:25:06,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+17:25:06,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+17:25:06,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+17:25:07,928 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+17:26:02,118 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:27:41,162 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+09:27:41,349 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+09:27:41,367 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+09:27:41,383 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+09:27:41,398 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+09:27:41,422 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+09:27:41,433 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+09:27:42,111 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+09:27:42,112 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+09:27:42,112 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+09:27:42,112 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\log4j-1.2.14.jar
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin
+09:27:42,113 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\resources
+09:27:43,302 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:27:44,292 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+09:27:44,292 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+09:27:44,292 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+09:27:44,293 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+09:27:44,293 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+09:27:44,293 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+09:27:44,293 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+09:27:45,014 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+09:31:08,435 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:31:10,028 (main) WARN  [DataNucleus.Datastore.Persist] - Persistencia del objeto "org.datanucleus.samples.jdo.tutorial.Reserva@74751b3" con SQL "INSERT INTO `RESERVA` (`COMISION`,`COSTE`,`EMAILUSUARIO`,`ID_VUELO`,`ID_RESERVA`) VALUES (?,?,?,?,?)" ha tirado un error : Duplicate entry 'jonaso@opendeusto.es' for key 'PRIMARY'
+09:31:37,894 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+09:31:38,081 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+09:31:38,096 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+09:31:38,112 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+09:31:38,129 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+09:31:38,158 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+09:31:38,171 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+09:31:38,733 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+09:31:38,734 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\log4j-1.2.14.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin
+09:31:38,735 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\resources
+09:31:39,618 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:31:40,393 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+09:31:40,394 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+09:31:40,394 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+09:31:40,394 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+09:31:40,394 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+09:31:40,394 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+09:31:40,394 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+09:31:41,697 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+09:31:48,898 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+09:31:49,181 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+09:31:49,198 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+09:31:49,214 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+09:31:49,230 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+09:31:49,248 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+09:31:49,259 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+09:31:49,911 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+09:31:49,913 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+09:31:49,913 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+09:31:49,913 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+09:31:49,913 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+09:31:49,913 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+09:31:49,913 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+09:31:49,914 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\log4j-1.2.14.jar
+09:31:49,914 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+09:31:49,914 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin
+09:31:49,914 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\resources
+09:31:50,792 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+09:31:51,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+09:31:53,776 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+09:31:59,261 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:32:31,128 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+09:32:31,313 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+09:32:31,331 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+09:32:31,351 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+09:32:31,420 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+09:32:31,439 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+09:32:31,449 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+09:32:31,942 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+09:32:31,944 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+09:32:31,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+09:32:31,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+09:32:31,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+09:32:31,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+09:32:31,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+09:32:31,945 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\log4j-1.2.14.jar
+09:32:31,945 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+09:32:31,945 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin
+09:32:31,945 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\resources
+09:32:32,790 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+09:32:33,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+09:32:35,946 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+10:05:18,325 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:11:58,428 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:11:59,865 (main) WARN  [DataNucleus.Datastore.Persist] - Persistencia del objeto "org.datanucleus.samples.jdo.tutorial.Reserva@74751b3" con SQL "INSERT INTO `RESERVA` (`COMISION`,`COSTE`,`EMAILUSUARIO`,`ID_VUELO`,`ID_RESERVA`) VALUES (?,?,?,?,?)" ha tirado un error : Duplicate entry 'jonaso@opendeusto.es' for key 'PRIMARY'
+10:12:14,659 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+10:12:14,909 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+10:12:14,940 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+10:12:14,956 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+10:12:14,971 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+10:12:14,987 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+10:12:15,002 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+10:12:15,649 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\log4j-1.2.14.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin
+10:12:15,665 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\resources
+10:12:16,540 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+10:12:17,274 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\workspaceDiseno\JDOEasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+10:12:18,665 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+10:13:53,178 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:16:11,365 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+10:16:11,678 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+10:16:11,693 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+10:16:11,709 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+10:16:11,725 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+10:16:11,740 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+10:16:11,756 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\log4j-1.2.14.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin
+10:16:12,310 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\resources
+10:16:13,248 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+10:16:14,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+10:16:15,623 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+10:16:24,179 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:17:55,675 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:17:57,175 (main) WARN  [DataNucleus.Datastore.Persist] - Persistencia del objeto "org.datanucleus.samples.jdo.tutorial.Reserva@74751b3" con SQL "INSERT INTO `RESERVA` (`COMISION`,`COSTE`,`EMAILUSUARIO`,`ID_VUELO`,`ID_RESERVA`) VALUES (?,?,?,?,?)" ha tirado un error : Duplicate entry 'jonaso@opendeusto.es' for key 'PRIMARY'
+10:18:04,090 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.0.m1) para el API "JDO" utilisando el JRE "{2}"
+10:18:04,309 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class" con definicion enhanced
+10:18:04,325 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class" con definicion enhanced
+10:18:04,340 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class" con definicion enhanced
+10:18:04,356 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class" con definicion enhanced
+10:18:04,372 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class" con definicion enhanced
+10:18:04,387 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 5 clases.
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Eliminación del esquema para clases
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-api-jdo-5.2.0-m1.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-cache-5.1.1.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-core-5.2.0-m1.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\datanucleus-rdbms-5.2.0-m1.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\javax.jdo-3.2.0-m9.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\log4j-1.2.14.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\lib\mysql-connector-java-8.0.12.jar
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin
+10:18:05,042 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\resources
+10:18:05,901 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aerolinea.class
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Aeropuerto.class
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Main.class
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Reserva.class
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Usuario.class
+10:18:06,698 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Iñaki\git\easyBooking\EasybookingLOL\bin\org\datanucleus\samples\jdo\tutorial\Vuelo.class
+10:18:08,151 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+10:18:18,062 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+10:19:23,887 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers

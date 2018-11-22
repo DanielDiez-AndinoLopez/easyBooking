@@ -1,34 +1,36 @@
 package org.datanucleus.samples.jdo.tutorial;
 
-import javax.jdo.annotations.Inheritance;
-import javax.jdo.annotations.InheritanceStrategy;
+import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
 
 @PersistenceCapable
-@Inheritance(strategy = InheritanceStrategy.NEW_TABLE)
-public class Aeropuerto {
-	String idAeropuerto;
-	String nombreAeropuerto;
-
-	public String getIdAeropuerto() {
-		return idAeropuerto;
+public class Aeropuerto
+{
+	@PrimaryKey
+	@Persistent(valueStrategy=IdGeneratorStrategy.INCREMENT)
+    long id_aeropuerto;
+    public long getId_aeropuerto() {
+		return id_aeropuerto;
 	}
 
-	public void setIdAeropuerto(String idAeropuerto) {
-		this.idAeropuerto = idAeropuerto;
+	public void setId_aeropuerto(long id_aeropuerto) {
+		this.id_aeropuerto = id_aeropuerto;
 	}
 
-	public String getNombreAeropuerto() {
-		return nombreAeropuerto;
+	String name = null;
+
+    public String getName() {
+		return name;
 	}
 
-	public void setNombreAeropuerto(String nombreAeropuerto) {
-		this.nombreAeropuerto = nombreAeropuerto;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public Aeropuerto(String idAeropuerto, String nombreAeropuerto) {
-		this.idAeropuerto = idAeropuerto;
-		this.nombreAeropuerto = nombreAeropuerto;
-	}
-	
+	public Aeropuerto(String name)
+    {
+        this.name = name;
+    }
 }

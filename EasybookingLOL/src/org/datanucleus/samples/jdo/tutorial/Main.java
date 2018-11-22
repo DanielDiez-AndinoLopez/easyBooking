@@ -1,7 +1,5 @@
 package org.datanucleus.samples.jdo.tutorial;
 
-import java.util.Date;
-
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
@@ -18,24 +16,30 @@ public class Main {
 			PersistenceManager persistentManager = persistentManagerFactory.getPersistenceManager();				
 			Transaction transaction = persistentManager.currentTransaction();				
 			
-			try {
+			Aerolinea aerolineaIberia = new Aerolinea("Iberia");
+		    Aeropuerto aeropuertoLoiu = new Aeropuerto("Loiu");
+		    Aeropuerto aeropuertoMunich = new Aeropuerto("Munich");	
+		    Vuelo vuelo = new Vuelo(aeropuertoLoiu, aeropuertoMunich, aerolineaIberia, null, null, 10);	
+		    Usuario eljoni = new Usuario("jonaso@opendeusto.es", "yon", "google+", "paypal", aeropuertoLoiu);
+		    Reserva reservaJoni = new Reserva(eljoni, 50, 20, vuelo);
+			
+		    //Insert data from the db
+		    try {
 			    transaction.begin();
-			    Aeropuerto origen = new Aeropuerto("1", "Melilla");
-			    Aeropuerto destino = new Aeropuerto("2", "Bilbao");
-			    Date fechaSalida = new Date(10000000000l);
-			    Date fechaLlegada = new Date(10000500000l);
-			    Vuelo miVuelo = new Vuelo(1, origen, destino, fechaSalida, fechaLlegada, 30, 28);
-			    String[] s = {"asd" , "dsa"};
 			    
-			    Usuario usuario = new Usuario("Pepito", "Domingues Sanches","pds@opendeusto.es", "Facebook", "Paypal", "Leioa");
-			    Reserva reserva = new Reserva("1", 30, s, 50, 20, miVuelo);
+			    persistentManager.makePersistent(vuelo);
+			    persistentManager.makePersistent(aeropuertoMunich);
+			    persistentManager.makePersistent(aeropuertoLoiu);
+			    persistentManager.makePersistent(eljoni);
+			    persistentManager.makePersistent(reservaJoni);
+			    persistentManager.makePersistent(aerolineaIberia);
 			    
-			    Inventory inventory = new Inventory("My Inventory");
-			    Product product = new Product("Sony MP4", "A standard MP4 from Sony", 49.99);
-			    inventory.getProducts().add(product);		    
-			    persistentManager.makePersistent(inventory);
-			    
-			    System.out.println("- Inserted into db: " + product.name);
+			    System.out.println("- Inserted into db: " + aerolineaIberia.getClass().getName() +" "+ aerolineaIberia.name);
+			    System.out.println("- Inserted into db: " + aeropuertoLoiu.getClass().getName() +" "+ aeropuertoLoiu.name);
+			    System.out.println("- Inserted into db: " + aeropuertoMunich.getClass().getName() +" "+ aeropuertoMunich.name);
+			    System.out.println("- Inserted into db: " + vuelo.getClass().getName() +" "+ vuelo.id_vuelo);
+			    System.out.println("- Inserted into db: " + eljoni.getClass().getName() +" "+ eljoni.email);
+			    System.out.println("- Inserted into db: " + reservaJoni.getClass().getName() +" "+ reservaJoni.id_reserva);
 			    
 			    transaction.commit();
 			} catch(Exception ex) {
@@ -47,23 +51,25 @@ public class Main {
 			    
 			    persistentManager.close();
 			}
-			
-			//Select data using a Query
+		
+		    
+		    
+			//Select data from the db
 			persistentManager = persistentManagerFactory.getPersistenceManager();
 			transaction = persistentManager.currentTransaction();
-				
+			
 			try {
 			    transaction.begin();
 	
 			    @SuppressWarnings("unchecked")
-				Query<Product> productsQuery = persistentManager.newQuery("SELECT FROM " + Product.class.getName() + " WHERE price < 150.00 ORDER BY price ASC");
+			    Query<Aeropuerto> AeropuertosQuery = persistentManager.newQuery("SELECT FROM " + Aeropuerto.class.getName());
 			    
-			    for (Product product : productsQuery.executeList()) {
-			        System.out.println("- Selected from db: " + product.name);
-			        persistentManager.deletePersistent(product);
-			        System.out.println("- Deleted from db: " + product.name);
+			    for (Aeropuerto aeropuerto : AeropuertosQuery.executeList()) {
+			        System.out.println("- Selected from db: " + aeropuerto.name);
+			        persistentManager.deletePersistent(aeropuerto);
+			        System.out.println("- Deleted from db: " + aeropuerto.name);
 			    }
-	
+			    
 			    transaction.commit();
 			} catch(Exception ex) {
 				System.err.println("* Exception executing a query: " + ex.getMessage());
@@ -71,11 +77,38 @@ public class Main {
 				if (transaction.isActive()) {
 			        transaction.rollback();
 			    }
-	
 			    persistentManager.close();
 			}
+			
+			
+			
+			//Update the db data
+			persistentManager = persistentManagerFactory.getPersistenceManager();
+			transaction = persistentManager.currentTransaction();
+			
+			try {
+			    transaction.begin();
+	
+			    aerolineaIberia.setName("Vueling");
+			    
+			    persistentManager.makePersistent(aerolineaIberia);
+			    
+			    transaction.commit();
+			    
+			    System.out.println("- Updated: " + aerolineaIberia.toString());
+			} catch(Exception ex) {
+				System.err.println("* Exception updating data in db: " + ex.getMessage());
+			} finally {
+				if (transaction.isActive()) {
+			        transaction.rollback();
+			    }
+			    persistentManager.close();
+			}
+			
 		} catch (Exception ex) {
 			System.err.println("* Exception: " + ex.getMessage());
 		}
+		
+		
 	}
 }

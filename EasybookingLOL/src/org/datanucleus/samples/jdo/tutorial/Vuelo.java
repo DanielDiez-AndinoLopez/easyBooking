@@ -2,86 +2,65 @@ package org.datanucleus.samples.jdo.tutorial;
 
 import java.util.Date;
 
-import javax.jdo.annotations.Inheritance;
-import javax.jdo.annotations.InheritanceStrategy;
+import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
 
 @PersistenceCapable
-@Inheritance(strategy = InheritanceStrategy.NEW_TABLE)
-public class Vuelo {
-	int numVuelo;
-	Aeropuerto origen;
-	Aeropuerto destino;
-	Date fechaSalida;
-	Date fechaLlegada;
-	int totalAsientos;
-	int asientosLibres;
-
-	public Vuelo(int numVuelo, Aeropuerto origen, Aeropuerto destino, Date fechaSalida, Date fechaLlegada,
-			int totalAsientos, int asientosLibres) {
-		this.numVuelo = numVuelo;
-		this.origen = origen;
-		this.destino = destino;
-		this.fechaSalida = fechaSalida;
-		this.fechaLlegada = fechaLlegada;
-		this.totalAsientos = totalAsientos;
-		this.asientosLibres = asientosLibres;
+public class Vuelo
+{
+	@PrimaryKey
+	@Persistent(valueStrategy=IdGeneratorStrategy.INCREMENT)
+    long id_vuelo;
+	long id_origen = 0;
+	long id_destino = 0;
+	long id_aer = 0;
+    Date salida = null;
+    Date llegada = null;
+    int totasientos = 0;	
+	
+	public long getId_vuelo() {
+		return id_vuelo;
 	}
 
-	public int getNumVuelo() {
-		return numVuelo;
+	public void setId_vuelo(long id_vuelo) {
+		this.id_vuelo = id_vuelo;
 	}
 
-	public void setNumVuelo(int numVuelo) {
-		this.numVuelo = numVuelo;
+	public Date getSalida() {
+		return salida;
 	}
 
-	public Aeropuerto getOrigen() {
-		return origen;
+	public void setSalida(Date salida) {
+		this.salida = salida;
 	}
 
-	public void setOrigen(Aeropuerto origen) {
-		this.origen = origen;
+	public Date getLlegada() {
+		return llegada;
 	}
 
-	public Aeropuerto getDestino() {
-		return destino;
+	public void setLlegada(Date llegada) {
+		this.llegada = llegada;
 	}
 
-	public void setDestino(Aeropuerto destino) {
-		this.destino = destino;
+	public int getTotasientos() {
+		return totasientos;
 	}
 
-	public Date getFechaSalida() {
-		return fechaSalida;
+	public void setTotasientos(int totasientos) {
+		this.totasientos = totasientos;
+	}
+	
+    public Vuelo(Aeropuerto origen, Aeropuerto destino, Aerolinea idaer, Date salida, Date llegada, int totasientos) {
+
+		this.id_origen = origen.getId_aeropuerto();
+		this.id_destino = destino.getId_aeropuerto();
+		this.id_aer = idaer.getId_aerolinea();
+		this.llegada = llegada;
+		this.totasientos = totasientos;
+		
 	}
 
-	public void setFechaSalida(Date fechaSalida) {
-		this.fechaSalida = fechaSalida;
-	}
-
-	public Date getFechaLlegada() {
-		return fechaLlegada;
-	}
-
-	public void setFechaLlegada(Date fechaLlegada) {
-		this.fechaLlegada = fechaLlegada;
-	}
-
-	public int getToatalAsientos() {
-		return totalAsientos;
-	}
-
-	public void setToatalAsientos(int toatalAsientos) {
-		this.totalAsientos = toatalAsientos;
-	}
-
-	public int getAsientosLibres() {
-		return asientosLibres;
-	}
-
-	public void setAsientosLibres(int asientosLibres) {
-		this.asientosLibres = asientosLibres;
-	}
 
 }

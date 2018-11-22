@@ -1,25 +1,42 @@
 package org.datanucleus.samples.jdo.tutorial;
 
-import javax.jdo.annotations.Inheritance;
-import javax.jdo.annotations.InheritanceStrategy;
+import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
 
 @PersistenceCapable
-@Inheritance(strategy = InheritanceStrategy.NEW_TABLE)
-public class Aerolinea {
+public class Aerolinea
+{
+	@PrimaryKey
+	@Persistent(valueStrategy=IdGeneratorStrategy.INCREMENT)
+    long id_aerolinea;
+    String name = null;
 
-	String nombreAerolinea;
+    public Aerolinea(String name)
+    {
+        this.name = name;
+    }
 
-	public Aerolinea(String nombreAerolinea) {
-		this.nombreAerolinea = nombreAerolinea;
+	public long getId_aerolinea() {
+		return id_aerolinea;
 	}
 
-	public String getNombreAerolinea() {
-		return nombreAerolinea;
+	public void setId_aerolinea(long id_aerolinea) {
+		this.id_aerolinea = id_aerolinea;
 	}
 
-	public void setNombreAerolinea(String nombreAerolinea) {
-		this.nombreAerolinea = nombreAerolinea;
+	public String getName() {
+		return name;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Aerolinea [id_aerolinea=" + id_aerolinea + ", name=" + name + "]";
+	}
+	
 }

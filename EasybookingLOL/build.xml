@@ -43,7 +43,7 @@
     </target>
 
 	<target name="4.RUN" description="Runs the example">
-        <java classname="org.datanucleus.samples.jdo.tutorial.Main" classpathref="classpath" fork="true">
+        <java classname="jdo.Main" classpathref="classpath" fork="true">
         	<jvmarg value="-Dlog4j.configuration=log4j.properties"/>
 		</java>
     </target>

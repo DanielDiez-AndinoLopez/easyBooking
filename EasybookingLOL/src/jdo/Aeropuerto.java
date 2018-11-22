@@ -1,4 +1,4 @@
-package org.datanucleus.samples.jdo.tutorial;
+package jdo;
 
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
